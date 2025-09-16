@@ -8,7 +8,7 @@ import Providers from '@/components/providers'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 
-
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -45,6 +45,7 @@ export default function RootLayout({
           <main className='grow'>{children}</main>
           <Footer />
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   )

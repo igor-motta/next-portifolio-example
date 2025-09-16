@@ -3,7 +3,7 @@ import { JSX, SVGProps } from 'react'
 const navigation = [
   {
     name: 'GitHub',
-    href: '#',
+    href: 'https://github.com/igor-motta',
     icon: (
       props: JSX.IntrinsicAttributes &
         SVGProps<SVGSVGElement>
